@@ -4,7 +4,7 @@
   <img src="images/1.jpg?raw=true" width="600" title="Microwave after modification">
 </p>
 
-I have a 28 years old oven, Samsung M7136. It so old, than this image is probably only one of it on the Internet :)
+I have a 28 years old oven, Samsung M7136. It so old, than this image is probably only one of this model on the Internet :)
 
 <p align="center">
   <img src="images/5.jpg?raw=true" width="400" title="Samsung M7136">
@@ -19,7 +19,8 @@ The microwave had been working great, but but one day it stopped. One gear becom
 It was a pity to loose such a great oven an I did not want to multiply waste as well, so I decided to replace the mecanical timer with an electronic one.
 If you decide to repeat this experience, please, do not remove any switches or termal protections from your oven :)
 
-I used:
+## Components:
+
 1. Arduino NANO;
 2. 2 pcs. 5V 10A x 250V relays, but it is recommended to use 30A relay for the microwave switch instead of 10A one;
 3. KY-040 encoder module;
@@ -27,14 +28,14 @@ I used:
 5. 5V active buzzer;
 6. 5V power supply.
 
-Connection schematic:
+## Connection schematic:
 
 <p align="center">
   <img src="images/schem.png?raw=true" width="600" title="Microwave after modification">
 </p>
 
-Functionality:
-Turn the encoder nob clockwise to start timer and heeting process, turn the nob counterclockwise to decrease time and turn it off. Short press on the nob in surned off state to show the current power level. Long press on the nob in surned off state to change the power level.
+## Functionality:
+Turn the encoder knob clockwise to start timer and heeting process, turn the knob counterclockwise to decrease time and turn it off. Short press on the knob in turned off state to show the current power level. Long press on the knob in turned off state to change the power level.
 
 Arduino project code is included in this repo.
 <p align="center">
