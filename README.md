@@ -1,4 +1,4 @@
-# Arduino based controller for a microwave oven
+# A second life for an old microwave oven
 
 <p align="center">
   <img src="images/1.jpg?raw=true" width="600" title="Microwave after modification">
